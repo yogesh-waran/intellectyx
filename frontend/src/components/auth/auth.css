@@ -1,0 +1,33 @@
+.root {
+    height: 100vh;
+}
+.image {
+    background-image: url('login.jpg');
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+}
+.paper {
+  margin: 20vh 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.paper_signup {
+    margin: 10vh 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar {
+  margin: 10px;
+  background-color: grey,
+}
+.form {
+  width: 100%;
+  margin-top: 10px;
+}
+.submit {
+  margin: 30px 0 20px;
+}

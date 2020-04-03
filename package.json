@@ -1,0 +1,34 @@
+{
+  "name": "intellectyx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-watch": "nodemon index.js",
+    "dev": "concurrently \"npm run start-watch\" \"cd frontend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogesh-waran/intellectyx.git"
+  },
+  "author": "yogeshwaran.s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yogesh-waran/intellectyx/issues"
+  },
+  "homepage": "https://github.com/yogesh-waran/intellectyx#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7",
+    "mongoose-validation-error-handler": "^2.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
